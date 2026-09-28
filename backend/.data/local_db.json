@@ -15,9 +15,30 @@
       "password_hash": "$2a$12$50Z51S.gLU579lzx1KBUienb1VVYf8LKDtEMJjxSy0U80MOJv8vEq",
       "created_at": "2026-09-28T09:31:59.684Z",
       "updated_at": "2026-09-28T09:31:59.684Z"
+    },
+    {
+      "id": "949a823a-e410-4240-97cf-428ef4b325e0",
+      "name": "Devanshi Agrawal",
+      "email": "devanshiagrawal04042008@gmail.com",
+      "password_hash": "$2a$12$EiXC2XLhHzao9GxsAH6Hn.DzvJFiVfyLnblGHGbb7UX1FI3rg84vK",
+      "created_at": "2026-09-28T11:16:52.215Z",
+      "updated_at": "2026-09-28T11:16:52.215Z"
     }
   ],
-  "expenses": [],
+  "expenses": [
+    {
+      "id": "a33efcd0-f004-4b60-8b00-9fc9cda76ca0",
+      "user_id": "949a823a-e410-4240-97cf-428ef4b325e0",
+      "amount": 12334,
+      "category": "Transport",
+      "description": "",
+      "expense_date": "2026-09-28",
+      "payment_method": "UPI",
+      "is_necessary": true,
+      "created_at": "2026-09-28T11:17:24.746Z",
+      "updated_at": "2026-09-28T11:17:24.746Z"
+    }
+  ],
   "budgets": [
     {
       "id": "0bf8ac8d-d167-428e-942a-0e2db2505f22",
@@ -40,6 +61,16 @@
       "target_date": "2026-12-31",
       "created_at": "2026-09-28T09:31:59.720Z",
       "updated_at": "2026-09-28T09:31:59.725Z"
+    },
+    {
+      "id": "a77ae702-3e98-4595-9d7e-0300b9503899",
+      "user_id": "949a823a-e410-4240-97cf-428ef4b325e0",
+      "name": "qwer",
+      "target_amount": 1000,
+      "current_amount": 0,
+      "target_date": "2026-12-28",
+      "created_at": "2026-09-28T11:17:47.144Z",
+      "updated_at": "2026-09-28T11:17:47.144Z"
     }
   ]
 }
