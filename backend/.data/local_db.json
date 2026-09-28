@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": "bfbd266d-18ca-4ad2-8cce-3c960eb4d329",
+      "name": "Aarav Patel",
+      "email": "aarav_1790587918606@example.com",
+      "password_hash": "$2a$12$EUnkMWvEeaqf/hh6kSjOBOXV2uVDS9micvq/so4iZRSZeQ4H5FmAW",
+      "created_at": "2026-09-28T09:31:58.899Z",
+      "updated_at": "2026-09-28T09:31:58.899Z"
+    },
+    {
+      "id": "c968a0c4-60a3-4dcb-9a3e-7cc21a29b568",
+      "name": "Diya Sharma",
+      "email": "diya_1790587918606@example.com",
+      "password_hash": "$2a$12$50Z51S.gLU579lzx1KBUienb1VVYf8LKDtEMJjxSy0U80MOJv8vEq",
+      "created_at": "2026-09-28T09:31:59.684Z",
+      "updated_at": "2026-09-28T09:31:59.684Z"
+    }
+  ],
+  "expenses": [],
+  "budgets": [
+    {
+      "id": "0bf8ac8d-d167-428e-942a-0e2db2505f22",
+      "user_id": "bfbd266d-18ca-4ad2-8cce-3c960eb4d329",
+      "category": "Overall",
+      "amount": 5000,
+      "month": 9,
+      "year": 2026,
+      "created_at": "2026-09-28T09:31:59.701Z",
+      "updated_at": "2026-09-28T09:31:59.701Z"
+    }
+  ],
+  "savings_goals": [
+    {
+      "id": "62302906-ebde-41c1-9c51-7607e9f53ee4",
+      "user_id": "bfbd266d-18ca-4ad2-8cce-3c960eb4d329",
+      "name": "Noise Cancelling Headphones",
+      "target_amount": 8000,
+      "current_amount": 4000,
+      "target_date": "2026-12-31",
+      "created_at": "2026-09-28T09:31:59.720Z",
+      "updated_at": "2026-09-28T09:31:59.725Z"
+    }
+  ]
+}
