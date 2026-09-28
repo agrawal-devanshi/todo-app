@@ -39,6 +39,22 @@ app.use(
 app.use(express.json({ limit: '1mb' }));
 app.use(express.urlencoded({ extended: true }));
 
+// Root Route (for browser checks)
+app.get('/', (req, res) => {
+  res.status(200).send(`
+    <html>
+      <head><title>TeenSpend Backend</title></head>
+      <body style="font-family: system-ui, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f3f4f6; margin: 0;">
+        <div style="text-align: center; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <h1 style="color: #4f46e5; margin-bottom: 0.5rem;">🌟 TeenSpend API is Running!</h1>
+          <p style="color: #4b5563; font-size: 1.1rem;">This is the backend server. The API endpoints are accessible under <code>/api/*</code></p>
+          <a href="/api/health" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background-color: #4f46e5; color: white; text-decoration: none; border-radius: 6px;">Check Health Status</a>
+        </div>
+      </body>
+    </html>
+  `);
+});
+
 // Health Check
 app.get('/api/health', (req, res) => {
   res.status(200).json({
